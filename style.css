@@ -1,0 +1,249 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    font-family: Edwardian Script ITC; 
+}
+
+/* myself section */
+#myself {
+    background-color: rgb(84, 77, 114);
+    text-align: center;
+    padding: 3%;
+    margin: 5%;
+    border-radius: 80px;
+}
+
+#myself img {
+    max-width: 10%;
+}
+
+.button{
+    margin-top: 4%;
+}
+
+#resume {
+    margin-right: 3%;
+    font-size: 120%;
+    color: rgb(5, 46, 122);
+    background-color: white;
+    font-weight: 600;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgb(1, 7, 17);
+    border-radius: 20px;
+    padding: 1%;
+    text-decoration: none;
+}
+
+#resume:hover {
+    background-color: rgb(150, 108, 108);
+}
+
+#contact {
+    margin-left: 3%;
+    font-size: 120%;
+    color: rgb(236, 238, 241);
+    background-color: black;
+    font-weight: 600;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgb(1, 7, 17);
+    border-radius: 20px;
+    padding: 1%;
+    text-decoration: none;
+}
+
+#contact:hover {
+    background-color: rgb(150, 108, 108);
+}
+
+.button .download {
+    height: 15px;
+}
+
+/* infographic section */
+
+.infographic {
+    margin: 5%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.honesty {
+    flex: 1;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 250px;
+    background-color:rgb(202, 178, 154);
+}
+
+.information {
+    flex: 1;
+    height: 250px;
+    background-color:rgb(109, 135, 135);
+    padding-left: 5%;
+    list-style: none;
+    text-align: left;
+}
+
+.information .title {
+    text-align: center;
+}
+
+#basic {
+    border-spacing: 20px 0px;
+}
+
+/* education section */
+
+#education {
+    text-align: center;
+}
+
+.degree {
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.degree .left {
+    flex: 1;
+    color:aliceblue;
+    background-color: blue;
+    height: 120px;
+    padding-top: 3%;
+}
+
+.degree .left p {
+    font-size: x-large;
+}
+
+.degree .right {
+    flex: 3;
+    background-color: rgb(209, 239, 239);
+    height: 120px;
+    text-align: left;
+    padding: 2% 5% 1% 5%;   
+}
+
+.degree .right .program {
+    font-size: large;
+}
+
+.degree .right .school {
+    color: white;
+    text-shadow: 1px 1px black, -1px -1px black,
+                 1px -1px black, -1px 1px black;
+}
+
+.degree .right .description {
+    font-style: italic;
+}
+
+/* contact me form section */
+
+#contactMe {
+    padding: 2% ;
+    margin: 5%;
+    background-color: rgb(33, 83, 106);
+    border-radius: 100px;
+}
+
+#contactMe h2 {
+    text-align: center;
+}
+
+#contactMe .column {
+    width: auto;
+    display: flex;
+}
+
+#contactMe .column .left {
+    padding: 3% 5% 2% 5%;
+    flex: 1;
+    height: 250px;
+    background-color: rgb(118, 182, 162);
+    border-radius: 50px;
+}
+
+#contactMe .column .right {
+    padding: 2% 5% 3% 5%;
+    flex: 1;
+    height: 250px;
+    background-color: rgb(123, 168, 180);
+    border-radius: 50px;
+} 
+
+.input {
+    display: flex;
+    padding-bottom: 5%;
+}
+
+.input label {
+    width: 120px;
+}
+
+.input input {
+    width: auto;
+}
+
+.option-title {
+    font-style: italic;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.inputText {
+    margin-bottom: 2%;
+}
+
+.checkbox {
+    margin-bottom: 2%;
+}
+
+#contactMe #submit {
+    margin-left: 30%;
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-weight: 10px;
+    }
+    #myself img {
+        max-width: 50%;
+    }
+    .infographic {
+        display: block;
+    }
+     
+    .honesty {
+        height: auto;
+    }
+    
+    .information {
+        height: auto;
+    }
+
+    #basic {
+        border-spacing: 0px 0px;
+    }    
+
+    .degree .seneca {
+        height: 180px;
+    }
+    #contactMe .column {
+        display: block;
+    }
+    #contactMe .column .right {
+        font-size: 15px;
+    }
+    .input {
+        padding: 1%;
+    }
+}
